@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+}
+
+.parent2{
+    background: linear-gradient(to bottom left, blue -14%, #432243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box2{
+    width: 25vw;
+    height: 650px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.box2 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header2{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: blue;
+    position: relative;
+    bottom: 30px;
+}
+
+.header2 h1{
+    border-bottom: 5px solid blue;
+    padding-bottom: 10px;
+}
+
+.name2 input,.password2 input,.address2 input,.contact2 input{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 0 6px black;
+    border: none;
+    border-radius: 0;
+    color: blue;
+}
+
+.password2 input{
+    margin-top: 20px;
+}
+
+.name2 input::placeholder,.password2 input::placeholder,.address2 input::placeholder,.contact2 input::placeholder{
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.button2{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0 23 220);
+    box-shadow: 0 0 10px rgb(3 56 132);
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.button2:hover , .sign2:hover{
+    background-color: rgb(109, 59, 216);
+    box-shadow: 0 0 10px rgb(134, 34, 196);
+    transition: 0.5s ;    
+    cursor: pointer;
+}
+
+.name2 input:focus,.password2 input:focus,.address2 input:focus,.contact2 input:focus{
+    outline: none;
+    border-bottom: 3px solid blue;
+}
+
+.small_button2{
+    font-family: sans-serif;
+}
+
+.small_button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.sign2{
+    background-color: aqua;
+    width: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: rgb(0 23 220);
+    box-shadow: 0 0 10px rgb(0 23 220);
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+
+@media(width < 1400px){
+    .box2{
+        width: 35vw;
+    }
+}
+
+@media(width < 1200px){
+
+    .box2{
+        width: 40vw;
+    }
+    
+    }
+    
+    @media(width < 900px){
+        .box2{
+            width: 60vw;
+        }   
+    }
+
+    @media(width < 610px){
+        .box2{
+            width: 80vw;
+        }   
+    }
+    
+    @media(width < 440px){
+        .box2{
+            width: 95vw;
+        }
+        .name2 input,.password2 input,.address2 input,.contact2 input{
+            width: 250px;
+        }
+        .button2{
+            width: 125px;
+        }   
+    }

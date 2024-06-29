@@ -1,0 +1,79 @@
+.NAVIGATION{
+    height: 63.65px;
+    z-index: 4;
+}
+
+.navbar_parent{
+    gap: 200px;
+    font-family: sans-serif;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(0, 102, 167);
+    color: white;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 0px 13px;
+    position: fixed;
+}
+
+.hamburger{
+    position: absolute;
+    right: 95vw;
+    top: 16px;
+    filter: invert();
+    display: none;
+    cursor: pointer;
+}
+
+.myorder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img{
+    position: relative;
+    top: 12px;
+}
+
+.myorder img{
+    width: 33px;
+    filter: invert();
+}
+.user img{
+    bottom: 2px;
+    width: 58px;
+    position: relative;
+    filter: invert();
+}
+
+.myorder span{
+    position: relative;
+    bottom: 0px;
+    left: 10px;
+}
+
+.user span{
+    position: relative;
+    bottom: 21px;
+    cursor: pointer;
+}
+
+
+@media(width < 1060px){
+
+    .navbar_parent{
+        height: 63.66px;
+    }
+
+    .user , .myorder{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+}

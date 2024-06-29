@@ -1,0 +1,56 @@
+.FINALE{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: relative;
+    left: 5vw;
+    margin: 30px 0px;
+}
+
+.Total_Payment_parent{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Total_Payment_Amount{
+    display: flex;
+}
+
+.Total_Payment_Amount div{
+    width: 50%;
+    display: flex;
+}
+
+.Grand_Total{
+ justify-content: flex-start;   
+}
+.Total_Amount{
+    justify-content: flex-end;
+}
+
+.Place_Order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11e411;
+    color: white;
+    cursor: pointer;
+}
+
+
+.Place_Order:hover{
+    border: 1px solid black;
+    box-shadow: 0 0 12px black;
+}
+
+
+@media(width < 980px){
+    .FINALE{
+        left:0px;
+    }
+}

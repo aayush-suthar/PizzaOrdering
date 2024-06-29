@@ -1,0 +1,405 @@
+{
+
+    "pizza" : [
+        {
+            "name" : "Blazing Onion & Paprika",
+            "description" : "Hot & spicy pizza with onion & red paprika toppings and a new spicy peri peri sauce on a Domino's cheesy base.",
+            "price" : 509,
+            "pic" : "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/10ddf620-ae20-477f-b4b2-9bce1ded021d_BlazingOnionPaprikacartmenu.jpeg",
+            "veg" : true,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Margherita",
+            "description" : "Gourmet non-veg delight with bocconcini, juicy chicken, olives, bellpeppers & basil pesto.",
+            "price" : 629,
+            "pic" : "./food_itme_images/B.jpg",
+            "veg" : true,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Fiery Sausage & Paprika",
+            "description" : "Spiciest non veg pizza with spicy & herby chicken sausage and red paprika toppings on a new spicy peri peri sauce base.",
+            "price" : 449,
+            "pic" : "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/4d42a594-14be-48d2-ac4a-adcd0034a08f_FierySausagePaprikadef.jpeg",
+            "veg" : false,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Primavera Gourmet-Pizza",
+            "description" : "Gourmet veggie delight with bocconcini, zucchini, bell peppers, and mushrooms.",
+            "price" : 549,
+            "pic" : "./food_itme_images/A.jpg",
+            "veg" : true,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Smoked Chicken Gourmet-Pizza",
+            "description" : "Gourmet non-veg delight with bocconcini, juicy chicken, olives, bellpeppers & basil pesto.",
+            "price" : 629,
+            "pic" : "./food_itme_images/C.jpg",
+            "veg" : false,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Farmhouse",
+            "description" : "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+            "price" : 459,
+            "pic" : "./food_itme_images/Farmhouse.png",
+            "veg" : true,
+            "type" : "pizza"
+        },        
+        {
+            "name" : "Penny Paneer",
+            "description" : "Flavorful trio of juicy paneer, crisp capsicum with spicy red paprika",
+            "price" : 459,
+            "pic" : "./food_itme_images/Peppy_Paneer.jpg",
+            "veg" : true,
+            "type" : "pizza"
+        },        
+        {
+            "name" : "veg Extravaganza",
+            "description" : "Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno & extra cheese",
+            "price" : 549,
+            "pic" : "./food_itme_images/Veg_Extravaganza.jpg",
+            "veg" : true,
+            "type" : "pizza"
+        },        
+        {
+            "name" : "Cheese n Corn",
+            "description" : "A delectable combination of sweet & juicy golden corn",
+            "price" : 379,
+            "pic" : "./food_itme_images/Cheese_n_corn.jpg",
+            "veg" : true,
+            "type" : "pizza"
+        },       
+        {
+            "name" : "Paneer Barbecue Chicken",
+            "description" : "Pepper barbecue chicken for that extra zing",
+            "price" : 449,
+            "pic" : "./food_itme_images/pepper_barbecue_chicken.jpg",
+            "veg" : false,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Achari Do Pyaza",
+            "description" : "Tangy & spicy achari flavours on a super cheesy onion pizza- as desi as it gets!",
+            "price" : 329,
+            "pic" : "./food_itme_images/Achari Do Pyaza.jpg",
+            "veg" : true,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Fresh Veggie",
+            "description" : "Delectable combination of onion & capsicum, a veggie lovers pick",
+            "price" : 379,
+            "pic" : "./food_itme_images/Fresh Veggie.jpg",
+            "veg" : true,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Double Cheese Margherita",
+            "description" : "A classic delight loaded with extra 100% real mozzarella cheese",
+            "price" : 379,
+            "pic" : "./food_itme_images/Double Cheese Margherita.jpg",
+            "veg" : true,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Indi Chicken Tikka",
+            "description" : "The wholesome flavour of tandoori masala with Chicken tikka, onion, red paprika & mint mayo",
+            "price" : 674,
+            "pic" : "./food_itme_images/Indi Chicken Tikka.jpg",
+            "veg" : false,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Chicken Pepperoni",
+            "description" : "A classic American taste! Relish the delectable flavor of Chicken Pepperoni, topped with extra cheese",
+            "price" : 599,
+            "pic" : "./food_itme_images/Chicken Pepperoni.png",
+            "veg" : false,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Primavera Gourmet-Pizza",
+            "description" : "Gourmet veggie delight with bocconcini, zucchini, bell peppers, and mushrooms.",
+            "price" : 549,
+            "pic" : "./food_itme_images/Primavera Gourmet-Pizza.jpg",
+            "veg" : true,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Al Fungi Gourmet-Pizza",
+            "description" : "Gourmet mushroom pizza on a cheesy Mozzarella base with jalapenos & cherry tomatoes.",
+            "price" : 549,
+            "pic" : "./food_itme_images/Al Fungi Gourmet-Pizza.jpg",
+            "veg" : true,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Chicken Pepperoni Gourmet-Pizza",
+            "description" : "The classic Italian gourmet pizza with bocconcini cheese and chicken pepperoni.",
+            "price" : 629,
+            "pic" : "./food_itme_images/Chicken Pepperoni Gourmet-Pizza.jpg",
+            "veg" : false,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Chicken Sausage",
+            "description" : "American classic! Spicy, herbed chicken sausage on pizza",
+            "price" : 369,
+            "pic" : "./food_itme_images/chichken_sausage.jpg",
+            "veg" : false,
+            "type" : "pizza"
+        }
+    ],
+
+    "Combo" : [
+        {
+            "name" : "Match Day Veg Combo",
+            "description" : "Regular Margherita +Regular  Farmhouse + Garlic Bread + Pepsi",
+            "price" : 459,
+            "pic" : "./food_itme_images/Match Day Veg Combo.jpg",
+            "veg" : true,
+            "type" : "combo"
+        },
+        {
+            "name" : "Match Day Non Veg Combo",
+            "description" : "Regular Pepper BBQ Chicken + Regular Chicken Sausage + Garlic Bread + Pepsi",
+            "price" : 529,
+            "pic" : "./food_itme_images/Match Day Non Veg Combo.jpg",
+            "veg" : false,
+            "type" : "combo"
+        },
+        {
+            "name" : "Big Hitter Combo (Veg)",
+            "description" : "Regular Veg Extravaganza + Regular Indi Tandoori Paneer + Garlic Bread + Pepsi",
+            "price" : 649,
+            "pic" : "./food_itme_images/Big Hitter Combo (Veg).jpg",
+            "veg" : true,
+            "type" : "pizza"
+        },
+        {
+            "name" : "Winning Partnership Combo (Non-Veg)",
+            "description" : "Medium Non Veg Supreme + Medium Chicken Dominator + Garlic Bread + 2 Pepsi",
+            "price" : 509,
+            "pic" : "./food_itme_images/Winning Partnership Combo (Non-Veg).jpg",
+            "veg" : false,
+            "type" : "combo"
+        },
+        {
+            "name" : "Meal for 2 Farmhouse & Peppy Paneer",
+            "description" : "Regular Farmhouse + Regular Peppy Paneer + Garlic Bread + Pepsi",
+            "price" : 589,
+            "pic" : "./food_itme_images/Meal for 2 Farmhouse & Peppy Paneer.jpg",
+            "veg" : true,
+            "type" : "combo"
+        },        
+        {
+            "name" : "Meal for 2 Margherita & Peppy Paneer",
+            "description" : "Regular Margherita + Regular Peppy Paneer + Garlic Bread + Pepsi",
+            "price" : 459,
+            "pic" : "./food_itme_images/Meal for 2 Margherita & Peppy Paneer.jpg",
+            "veg" : true,
+            "type" : "combo"
+        },        
+        {
+            "name" : "Meal for 2: Farmhouse & Veg Extravaganza",
+            "description" : "Regular Farmhouse + Regular Veg Extravaganza + Garlic Bread + Pepsi",
+            "price" : 619,
+            "pic" : "./food_itme_images/Combo_1.jpg",
+            "veg" : true,
+            "type" : "combo"
+        },        
+        {
+            "name" : "Meal for 4: Veg Cheesy Pizza",
+            "description" : "Regular Fresh Veggie + Regular Peppy Paneer + Regular Corn n Cheese + Regular Farmhouse",
+            "price" : 799,
+            "pic" : "./food_itme_images/Combo_2.jpg",
+            "veg" : true,
+            "type" : "combo"
+        },        
+        {
+            "name" : "Meal for 4 Veg Loaded Pizza",
+            "description" : "Regular Veg Extravaganza + Regular Veg Paradise Pizza + Regular Indi Tandoori Paneer + Regular Farmhouse",
+            "price" : 949,
+            "pic" : "./food_itme_images/Meal for 4 Veg Loaded Pizza.jpg",
+            "veg" : true,
+            "type" : "combo"
+        },        
+        {
+            "name" : "Meal for 4 Non Veg Pizza Mania Value",
+            "description" : "2 PM Pepper Barbecue Chicken + PM Chicken Sausage + PM Non Veg Loaded",
+            "price" : 479,
+            "pic" : "./food_itme_images/Meal for 4 Non Veg Pizza Mania Value.jpg",
+            "veg" : false,
+            "type" : "combo"
+        }
+    ],
+
+    "garlic" : [
+        {
+            "name" : "Garlic Breadsticks + Cheesy Dip",
+            "description" : "Enjoy the all-time favorite Garlic Breadsticks with the indulgent Cheesy Dip",
+            "price" : 138,
+            "pic" : "./food_itme_images/Garlic Breadsticks + Cheesy Dip.jpg",
+            "veg" : true,
+            "type" : "garlic"
+        },
+        {
+            "name" : "Garlic Breadsticks + Pepsi",
+            "description" : "Enjoy the all time favourite Garlic Breadsticks with Pepsi (475 ml)",
+            "price" : 149,
+            "pic" : "./food_itme_images/Garlic Breadsticks + Pepsi.jpg",
+            "veg" : true,
+            "type" : "garlic"
+        },
+        {
+            "name" : "Garlic Breadsticks",
+            "description" : "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+            "price" : 109,
+            "pic" : "./food_itme_images/Garlic Breadsticks.png",
+            "veg" : true,
+            "type" : "garlic"
+        },
+        {
+            "name" : "Classic Stuffed Garlic Bread",
+            "description" : "Freshly baked garlic bread with cheese, juicy corn & tangy jalapeno",
+            "price" : 159,
+            "pic" : "./food_itme_images/Classic Stuffed Garlic Bread.png",
+            "veg" : true,
+            "type" : "garlic"
+        },
+        {
+            "name" : "Cheesy Dip",
+            "description" : "An all-time favorite with your Garlic Breadsticks & Stuffed Garlic Bread for a Cheesy indulgence",
+            "price" : 30,
+            "pic" : "./food_itme_images/Cheesy Dip.png",
+            "veg" : true,
+            "type" : "garlic"
+        },
+        {
+            "name" : "Taco Mexicana Non Veg",
+            "description" : "Truly irresistible! Crispy taco with non-veg patty & creamy harissa sauce",
+            "price" : 169,
+            "pic" : "./food_itme_images/Taco Mexicana Non Veg.png",
+            "veg" : true,
+            "type" : "garlic"
+        },
+        {
+            "name" : "Veg Parcel",
+            "description" : "Snacky bites! Pizza rolls with paneer & creamy harissa sauce",
+            "price" : 49,
+            "pic" : "./food_itme_images/Veg Parcel.jpg",
+            "veg" : true,
+            "type" : "garlic"
+        },
+        {
+            "name" : "Chicken Meatballs Peri-Peri Sauce",
+            "description" : "Tender, Juicy, Melt in Mouth Chicken Meatballs in Peri Peri Sauce",
+            "price" : 149,
+            "pic" : "./food_itme_images/Chicken Meatballs Peri-Peri Sauce.jpg",
+            "veg" : true,
+            "type" : "garlic"
+        }
+    ],
+
+    "dessert" : [
+        {
+            "name" : "Choco Lava Cake + Pepsi",
+            "description" : "Get the indulgent Choco Lava Cake & a Pepsi (475 ml) for just INR 149",
+            "price" : 149,
+            "pic" : "./food_itme_images/Choco Lava Cake + Pepsi.jpg",
+            "veg" : true,
+            "type" : "dessert"
+        },
+        {
+            "name" : "Red Velvet Lava Cake",
+            "description" : "A truly indulgent experience with sweet and rich red velvet cake on a creamy cheese flavoured base to give a burst of flavour in every bite!",
+            "price" : 139,
+            "pic" : "./food_itme_images/Red Velvet Lava Cake.jpg",
+            "veg" : true,
+            "type" : "dessert"
+        },
+        {
+            "name" : "Choco Lava Cake",
+            "description" : "Chocolate lovers delight! Indulgent, gooey molten lava inside chocolate cake",
+            "price" : 109,
+            "pic" : "./food_itme_images/Choco Lava Cake.jpg",
+            "veg" : true,
+            "type" : "dessert"
+        },
+        {
+            "name" : "Butterscotch Mousse Cake",
+            "description" : "Sweet temptation! Butterscotch flavored mousse",
+            "price" : 109,
+            "pic" : "./food_itme_images/Butterscotch Mousse Cake.png",
+            "veg" : true,
+            "type" : "dessert"
+        }        
+    ],
+
+    "beverage" : [
+        {
+            "name" : "Pepsi 475ml",
+            "description" : "Sparkling and Refreshing Beverage",
+            "price" : 60,
+            "pic" : "./food_itme_images/Pepsi 475ml.jpg",
+            "veg" : true,
+            "type" : "beverage"
+        },
+        {
+            "name" : "Pepsi Black Can 300ml",
+            "description" : "Maximum Taste Zero Calories",
+            "price" : 60,
+            "pic" : "./food_itme_images/Pepsi Black Can 300ml.jpg",
+            "veg" : true,
+            "type" : "beverage"
+        } ,
+        {
+            "name" : "7Up 475ml",
+            "description" : "Refreshing clear drink with a natural lemon flavor",
+            "price" : 60,
+            "pic" : "./food_itme_images/7Up 475ml.jpg",
+            "veg" : true,
+            "type" : "beverage"
+        } ,
+        {
+            "name" : "Mirinda 475ml",
+            "description" : "Delicious Orange Flavoured beverage",
+            "price" : 60,
+            "pic" : "./food_itme_images/Mirinda 475ml.jpg",
+            "veg" : true,
+            "type" : "beverage"
+        } ,
+        {
+            "name" : "Nagpur Orange",
+            "description" : "Enjoy Oranges from Nagpur with the goodness of Fiber",
+            "price" : 75,
+            "pic" : "./food_itme_images/Nagpur Orange.jpg",
+            "veg" : true,
+            "type" : "beverage"
+        },
+        {
+            "name" : "Mountain Dew 475ml",
+            "description" : "Strong and Refreshing",
+            "price" : 60,
+            "pic" : "./food_itme_images/Mountain Dew 475ml.jpg",
+            "veg" : true,
+            "type" : "beverage"
+        },
+        {
+            "name" : "Bailley One (500ml)",
+            "description" : "Packaged Drinking Water",
+            "price" : 20,
+            "pic" : "./food_itme_images/Bailley One (500ml).jpg",
+            "veg" : true,
+            "type" : "beverage"
+        }
+        
+         
+    ]
+
+
+}

@@ -1,0 +1,106 @@
+.Profile_parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.Profile_box{
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 12px black;
+}
+
+.Profile_Both_Button{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.Profile_Button{
+    width: 50%;
+    height: 100%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile_Main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile_Info{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+
+.Profile_Info_Box{
+    width: 100%;
+    height: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.Profile_Info span{
+    font-size: 21px;
+    letter-spacing: 2px;
+    position: relative;
+    left: 20px;
+
+}
+
+.Profile_Info_Info{
+    box-shadow: 0 0 12px black;
+    margin: 10px 0;
+    padding: 10px 0;
+    word-wrap: break-word;
+}
+
+.Profile_Header{
+    transform: rotate(90deg);
+    display: block;
+    font-size: 77px;
+    margin: 0px -72px;
+}
+
+
+@media(width < 1100px){
+    .Profile_box{
+        width: 100%;
+    }
+}
+
+@media(width < 800px){
+    .Profile_Main{
+        flex-direction: column;
+        margin-top: 31px;
+    }
+    .Profile_Header{
+    transform: rotate(0);        
+    }
+    .Profile_box{
+        height: 70vh;
+    }
+    .Profile_Info_Box{
+        left: 0px;
+    }
+}

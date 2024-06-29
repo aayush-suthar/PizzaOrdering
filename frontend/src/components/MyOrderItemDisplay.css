@@ -1,0 +1,31 @@
+.Total_Item_Selected{
+    width: 80vw;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.MyOrderItem_parent{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.MyOrderItem_box{
+    width: 80vw; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media(width < 980px){
+
+    .MyOrderItem_box{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Total_Item_Selected{
+        text-align: center;
+    }
+
+}

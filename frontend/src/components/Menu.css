@@ -1,0 +1,12 @@
+
+.MENU{
+    width: 100vw;
+    height: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+.Menu_Display{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
